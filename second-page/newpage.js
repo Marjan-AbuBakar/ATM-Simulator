@@ -47,6 +47,6 @@ function sub() {
 
 //EXIT ---------
 function exit() {
-    window.open('atm.html', '_blank')
+    window.open('../first-page/index.html', '_blank')
 }
 
