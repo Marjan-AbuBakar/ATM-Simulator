@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="newpage.css">
+    <title>Document</title>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="head">
+            <h2 class="h">CURRENT BALANCE <span id="Rupees">3000</span> </h2>
+        </div>
+        <div class="buttons">
+
+            <div class="box">
+                <button>WITHDRAWN</button>
+                <input type="number" placeholder="Enter  withdraw amount " id="inp">
+            </div>
+
+            <div class="box">
+                <button>DEPOSIT</button>
+                <input type="number" placeholder="Enter deposit amount" id="inp2">
+            </div>
+            <div class="box">
+                <div class="box">
+                    <button onclick="sub()">SUBMIT</button>
+                </div>
+                <div class="box">
+                    <h2 class="log">log-out of your account</h2>
+                    <button onclick="exit()">EXIT</button>
+
+                </div>
+                <div class="box">
+                    <h2 id="txt">xxxxxxxxxxxxxxxxxxxxxxx</h2>
+                </div>
+            </div>
+        </div>
+
+        <script src="newpage.js">  </script>
+</body>
+
+</html>

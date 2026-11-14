@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./atm.css" />
+</head>
+
+<body>
+    <div class="container">
+        <div class="cont">
+            <div class="ques">
+                <h2>enter your pin</h2>
+            </div>
+            <div class="search">
+                <input type="text" id="pin_display" placeholder="enter your pin***" />
+            </div>
+            <div class="ques">
+                <h3 id="message">please enter your 4digit pin</h3>
+            </div>
+        </div>
+        <div class="boxs">
+            <div class="box"><button onclick="num('1')">1</button></div>
+            <div class="box"><button onclick="num('2')">2</button></div>
+            <div class="box"><button onclick="num('3')">3</button></div>
+            <div class="box"><button onclick="num('4')">4</button></div>
+            <div class="box"><button onclick="num('5')">5</button></div>
+            <div class="box"><button onclick="num('6')">6</button></div>
+            <div class="box"><button onclick="num('7')">7</button></div>
+            <div class="box"><button onclick="num('8')">8</button></div>
+            <div class="box"><button onclick="num('9')">9</button></div>
+            <div class="box"><button onclick="clearpin()">Clear</button></div>
+            <div class="box"><button onclick="num('0')">0</button></div>
+            <div class="box"><button onclick="checkpin()">Enter</button></div>
+        </div>
+    </div>
+    <script src="atm.js"></script>
+</body>
+
+</html>
